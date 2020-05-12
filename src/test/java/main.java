@@ -16,7 +16,10 @@ public class main {
         x.get("https://lounge76-weather-app.glitch.me/");
 
         //assertEquals method Parameters: Expected Value, Actual Value, Assertion Message
-        assertEquals("Software Test Academy", driver.getTitle(), "Title check failed!");
+        assertEquals("Weather App", x.getTitle(), "Title check failed!");
 
+        //quit driver instance
+        //x.close();
+        //x.quit();
     }
 }
