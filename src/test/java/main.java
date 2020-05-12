@@ -7,11 +7,11 @@ public class main {
 
     public static void main(String args[])
     {
-        // saves us from system set property gecko...
+        // saves us from system set property gecko.....
         FirefoxDriverManager.getInstance(DriverManagerType.FIREFOX).setup();
         WebDriver x = new FirefoxDriver();
 
         x.get("https://lounge76-weather-app.glitch.me/");
-        
+
     }
 }
